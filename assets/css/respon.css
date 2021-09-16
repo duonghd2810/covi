@@ -1,0 +1,132 @@
+@media screen and (min-width: 740px) and (max-width: 1023px) {
+  .container {
+    width: 700px;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1239px) {
+  .container {
+    width: 984px;
+  }
+}
+@media screen and (max-width: 1013px) {
+  .bars-icon {
+    display: block;
+  }
+  .header-right {
+    display: none;
+  }
+  .header-right.active {
+    background: rgba(7, 12, 31, 0.99);
+    position: fixed;
+    top: var(--heightHeader);
+    width: 100%;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    z-index: 1;
+  }
+  .header-right.active .header__nav {
+    flex-direction: column;
+    width: 100%;
+    overflow: hidden;
+  }
+  .header-right.active .dropdown__nav {
+    position: static;
+  }
+  .header-right.active .header__phone {
+    margin: 20px 0;
+  }
+  .header-right.active .header__nav .header__nav-item {
+    width: 100%;
+  }
+  .header-right.active .header__nav-link {
+    padding: 8px 16px;
+  }
+  .header-right.active .header__nav-link:hover {
+    background: #16cf16;
+    color: #fff;
+    border-radius: 30px;
+    margin-left: 8px;
+  }
+  .home-content span {
+    display: inline-block;
+  }
+  .info-page {
+    margin-bottom: 32px;
+  }
+  .contact-box {
+    margin-top: 20px;
+  }
+}
+@media screen and (min-width: 740px) and (max-width: 1013px) {
+  .home-content h1 {
+    font-size: 6rem;
+  }
+  section .content-left {
+    padding: 16px;
+    margin-bottom: 60px;
+  }
+  section .content-right {
+    padding: 16px;
+    margin-top: 60px;
+  }
+  .col-spread {
+    padding-right: 0;
+  }
+  .news-item {
+    margin-bottom: 48px;
+  }
+  .covid-test-content {
+    padding: 60px;
+  }
+}
+@media screen and (max-width: 739px) {
+  .container {
+    width: 500px;
+  }
+  .home-content h1 {
+    font-size: 6rem;
+  }
+  section .content-left {
+    padding: 16px;
+    margin-bottom: 60px;
+  }
+  section .content-right {
+    padding: 16px;
+    margin-top: 60px;
+  }
+  .col-spread {
+    padding-right: 0;
+  }
+  .news-item {
+    margin-bottom: 48px;
+  }
+  .covid-test-content {
+    padding: 40px;
+  }
+  .btn-test {
+    padding: 16px 8px;
+  }
+  .contact {
+    padding: 32px 16px 0;
+  }
+  .footer-content {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .container {
+    width: 380px;
+  }
+}
+@media screen and (max-width: 380px) {
+  .container {
+    width: 300px;
+  }
+  .home-content h1 {
+    font-size: 4rem;
+  }
+}
